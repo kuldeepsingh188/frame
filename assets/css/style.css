@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.box_container {
+    max-width: 922px;
+}
+
+.bg_yellow {
+    background: #F6E300 ! important;
+}
+
+.bg_lightyellow {
+    background-color: #FFF03F;
+}
+
+.bg_r4241 {
+    background-color: #F4241E;
+}
+
+.po_sticky{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/* -------color------- */
+.cl_r4241 {
+    color: #F4241E;
+}
+
+/* ----------font-famiy------- */
+.ff_poppins {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.ff_roboto {
+    font-family: 'Roboto';
+}
+
+/* ------------font-size----------- */
+.fs_18 {
+    font-size: 18px;
+}
+
+.fs_20 {
+    font-size: 20px;
+}
+
+.fs_24 {
+    font-size: 24px;
+}
+
+.fs_36 {
+    font-size: 36px;
+}
+
+.fs_48 {
+    font-size: 48px;
+}
+
+/* -----------font-weight------ */
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+/* ------paddings----------- */
+
+.pt_10 {
+    padding-top: 10px;
+}
+
+.pb_10 {
+    padding-bottom: 10px;
+}
+
+.pt_20 {
+    padding-top: 20px;
+}
+
+/* -------gap---------- */
+.gap_38 {
+    gap: 38px;
+}
+
+.connect {
+    padding: 12px 32px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.connect:hover {
+    background-color: #F4241E;
+    color: aliceblue;
+    transition: all 200ms linear;
+}
+
+.we_are {
+    left: 36%;
+    top: 78%;
+}
+
+.burger1 {
+    top: -25px;
+    left: -160px;
+}
+
+.burger1:hover {
+    transform: rotateZ('angle');
+}
+
+.burger2 {
+    left: 13%;
+    top: 0%;
+}
+
+.burger3 {
+    right: 16%;
+    top: 5%;
+}
+
+.burger4 {
+    right: -10%;
+    top: -15%;
+}
+
+.burger5 {
+    top: 50%;
+    left: -21%;
+}
+
+.burger6 {
+    top: 62%;
+}
+
+.burger7 {
+    right: -13%;
+    top: 48%;
+}
+
+.burger8 {
+    top: 60%;
+    right: 10%;
+}
+
+.mx_100 {
+    max-width: 100%;
+}
+
+.discover {
+    background: #F4241E;
+    border-radius: 10px;
+    padding: 15px 32px;
+    border: none;
+}
+
+.discover:hover {
+    background-color: #fff;
+    color: #F4241E !important;
+    transition: all 200ms linear;
+}
+
+/* ----------timeline----------- */
+.timeline {
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: #F4241E;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.box_1 {
+    position: relative;
+    padding: 27px 23px;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.box_2 {
+    position: relative;
+    padding: 27px 23px;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.box_2::after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: -10px;
+    border-radius: 50%;
+    left: -50.5px;
+    z-index: 1;
+    background-color: white;
+}
+
+.box_1::after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: -10px;
+    border-radius: 50%;
+    right: -52.5px;
+    z-index: 1;
+    background-color: white;
+}
+
+.brg_1 {
+    top: 3%;
+    left: 5%;
+}
+
+.brg_2 {
+    top: 32%;
+    left: -15%;
+}
+
+.brg_3 {
+    top: 52%;
+    left: 12%;
+}
+
+.brg_4 {
+    top: 78%;
+    left: -16%;
+}
+
+.brg_5 {
+    top: 20%;
+    right: 21%;
+}
+
+.brg_6 {
+    top: 0%;
+    right: -16%;
+}
+
+.brg_7 {
+    top: 80%;
+    right: 18%;
+}
+
+.brg_8 {
+    top: 76%;
+    right: -18%;
+}
+
+.accordion-button {
+    background-color: #FFF03F !important;
+    box-shadow: none !important;
+    color: black !important;
+}
+
+.accordion-body {
+    background-color: #FFF03F !important;
+}
+
+.accordion-item {
+    background-color: #F6E300 !important;
+
+}
+
+.mx-100 {
+    max-width: 100%;
+}
+
+.transform_b{
+    transform: scale(1.5px);
+}
+
+
+/*--- nav--- */
+@media (max-width: 1150px) {
+    .nav_bar {
+        flex-direction: column;
+        background: #F6E300;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: 3;
+        width: 100%;
+        height: 1200px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    label[for="menuicon"] {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 10px;
+        z-index: 5;
+
+    }
+
+    label[for="menuicon"]>span {
+        width: 100%;
+        height: 7px;
+        display: flex;
+        background: #F4241E;
+        margin: 6px;
+
+    }
+
+    #menuicon:checked~ul{
+        left: 0%;
+        transition: all 1S cubic-bezier(1, -0.55, 0.265, 1.55);
+    }
+}
+
+@media (max-width: 576px) {
+    .burger2{
+        display: none;
+    }
+    .burger3{
+        display: none;
+    }
+    .burger4{
+        display: none;
+    }
+    .burger5{
+        display: none;
+    }
+    .burger6{
+        display: none;
+    }
+    .burger7{
+        display: none;
+    }
+    .burger8{
+        display: none;
+    }
+
+    .fs-sm-36{
+        font-size: 36px;
+    }
+
+    .brg_1 {
+        top: 2%;
+        left: -10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .timeline::after {
+        left: 0;
+        height: 100%;
+    }
+
+    .mb_15 {
+        margin-bottom: 15px;
+    }
+
+    .box_1::after {
+        left: -40.5px;
+    }
+
+    .box_2::after {
+        left: -40.5px;
+    }
+
+    .mr-md-0{
+        margin-right: 0;
+    }
+
+    .box_1 {
+        margin-left: 30px;
+    }
+
+    .j-start {
+        justify-content: start;
+    }
+
+
+    .burger2 {
+        left: 0;
+        top: 0;
+    }
+
+    .burger3 {
+        right: 0;
+        top: 6%;
+
+    }
+    .burger4{
+        right: -17%;
+        top: -15%;
+    }
+
+    .burger7 {
+        right: -25%;
+        top: 48%;
+    }
+
+}
+    @media (min-width: 992px) {}
